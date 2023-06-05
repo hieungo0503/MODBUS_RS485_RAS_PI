@@ -74,7 +74,7 @@ def relay_all_off(ser):
                                                                                                                                                        
                                                                                                                                                        
 while True:                                                                                                                                            
-    relay_all(ser)                                                                                                                                     
-    #relay_all_on(ser)                                                                                                                                 
-    #time.sleep(8)                                                                                                                                     
-    #relay_all_off(ser) 
+    #relay_all(ser)                                                                                                                                     
+    relay_all_on(ser)                                                                                                                                 
+    time.sleep(3)                                                                                                                                     
+    relay_all_off(ser) 
